@@ -14,3 +14,4 @@ This is my schematic, I started by creating the 4 by 4 matrix for the buttons, t
 
 <img width="802" height="469" alt="Screenshot 2026-03-22 at 8 11 09 pm" src="https://github.com/user-attachments/assets/63e248ad-4e9b-4bea-9332-c10e1781ee5f" />
 
+BOM: 16x Cherry MX Switches 1x XIAO RP2040 16x Blank DSA Keycaps 4x M3x16 Bolt 4x M3 Heatset 1x 0.91 Oled display 8x SK6812 Mini RGB LEDs
