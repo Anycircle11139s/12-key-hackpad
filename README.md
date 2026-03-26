@@ -12,7 +12,9 @@ This is my PCB design, after creating the schematic, I imported it into the pcb 
 
 This is my schematic, I started by creating the 4 by 4 matrix for the buttons, then I connected it to the rp2040. Next, I added the oled and connected that to the rp2040. The hardest part was creating the matrix which took me a while and a lot of reddit searching, but after that, it got a lot simpler.
 
-<img width="802" height="469" alt="Screenshot 2026-03-22 at 8 11 09 pm" src="https://github.com/user-attachments/assets/63e248ad-4e9b-4bea-9332-c10e1781ee5f" />
+
+<img width="865" height="485" alt="Screenshot 2026-03-26 at 1 18 49 pm" src="https://github.com/user-attachments/assets/8e06d8a2-29c4-4867-b88d-d50e11cb6962" />
+
 
 BOM: 16x Cherry MX Switches 1x XIAO RP2040 16x Blank DSA Keycaps 4x M3x16 Bolt 4x M3 Heatset 1x 0.91 Oled display 8x SK6812 Mini RGB LEDs
 
