@@ -7,13 +7,12 @@ from kmk.extensions.peg_oled_display import Oled, OledDisplayMode, OledReactionT
 
 keyboard = KMKKeyboard()
 
-# --- HARDWARE SETUP ---
-# Update these 8 pins to match your 16-key schematic layout
+# HARDWARE SETUP
 keyboard.col_pins = (board.D0, board.D1, board.D2, board.D3)
 keyboard.row_pins = (board.D6, board.D7, board.D8, board.D9)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-# --- OLED SETUP (SDA=D4, SCL=D5) ---
+# OLED SETUP
 i2c_bus = busio.I2C(board.SCL, board.SDA)
 
 oled_ext = Oled(
@@ -26,7 +25,7 @@ oled_ext = Oled(
 )
 keyboard.extensions.append(oled_ext)
 
-# --- 16-KEY MATRIX LAYOUT ---
+#  16-KEY MATRIX LAYOUT
 keyboard.keymap = [
     [
         KC.N7,   KC.N8,   KC.N9,   KC.MUTE,
